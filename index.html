@@ -571,13 +571,26 @@
           <div class="form-wrapper">
             <label class="form-label" for="form-comment">Comment</label>
             <textarea
-              class="form-comment"
+              class="form-textarea-comment"
               placeholder="Text input"
               name="form-comment"
             ></textarea>
           </div>
 
-          <button class="modal-button" type="submit">Submit</button>
+          <div class="form-wrapper">
+            <input
+              class="modal-check"
+              type="checkbox"
+              name="policy"
+              id="policy"
+            />
+            <label for="policy" class="modal-check-label"
+              >I accept the terms and conditions of the
+              <a href>Privacy Policy</a></label
+            >
+          </div>
+
+          <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
     </div>
