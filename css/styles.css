@@ -500,6 +500,10 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-overlay-three {
+  margin-left: auto;
+}
+
 .footer-input {
   display: flex;
   align-items: center;
@@ -670,11 +674,10 @@ img {
 }
 
 .form-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-wrapper {
-  margin-bottom: 8px;
   position: relative;
 }
 
